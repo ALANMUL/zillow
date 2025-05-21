@@ -91,6 +91,6 @@ CONCURRENT_REQUESTS_PER_IP = 48
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
-MONGO_URI ="mongodb+srv://mustakimanalysis:v3GUEz8f%25a4TWAF@personal.pqf5iub.mongodb.net/"
+MONGO_URI =""
 MONGO_DATABASE = "zillow_data"
 MONGO_COLLECTION = "homes"
