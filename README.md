@@ -1,13 +1,10 @@
 Zillow Scraper
-A Scrapy-based web scraper to extract real estate listings and details from Zillow. Collects property information such as prices, locations, and descriptions for analysis or data projects.
-
+A Scrapy-based web scraper that collects real estate data from Zillow and stores the extracted property information directly into a MongoDB database.
 Features
 Scrapes multiple Zillow listing pages
 
-Extracts key property details: price, address, features, etc.
+Extracts property details like price, address, and features
 
 Handles pagination automatically
 
-Outputs data in JSON or CSV formats
-
-Installation
+Saves data directly to MongoDB for easy access and management
